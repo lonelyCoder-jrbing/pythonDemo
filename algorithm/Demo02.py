@@ -22,15 +22,17 @@ def getIndexFromString(stringss,lists):
             print ("str:",str)
             print ("newString:",stringss.replace(str," "))
             index =  stringss.replace(str," ").index(" ")
+
+
             # print(index)
             result.append(index)
     return  result
 
-# str = 'jrbingjurongbingzmiwanttoeat'
-# s = ["jrbing", "jurongbing", "zm"]
+ss00 = 'jrbingjurongbingzmiwanttoeat'
+words00 = ["jrbing", "jurongbing", "zm"]
 ss = 'barfoothefoobarman'
 words = ["foo", "bar"]
-ret = getIndexFromString(ss,words)
+ret = getIndexFromString(ss00,words00)
 for i in ret:
     print(i)
 
